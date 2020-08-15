@@ -8,7 +8,7 @@ const Home = () => {
     const input_cols = divElement.querySelector('#cols')
     const btn_start = divElement.querySelector('#start-btn')
     btn_start.addEventListener('click', e => {
-        e.preventDefault()
+        // e.preventDefault()
         console.log(input_rows.value)
         console.log(input_cols.value)
     })

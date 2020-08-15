@@ -18,6 +18,11 @@ main {
     padding: 2em;
 }
 
+.content {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 .matrix-form {
     background-color: #fff;
     border: 2px solid black;
@@ -37,3 +42,32 @@ main {
     justify-content: space-between;
 }
 
+.exercise-controls {
+    background-color: rgba(0, 0, 0, .2);
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+.exercise-controls button {
+    height: 3em;
+}
+
+.matrix {
+    background-color: rgba(0, 0, 0, .2);
+    width: min-content;
+    margin: 1em 0;
+    padding: .2em;
+    display: grid;
+    gap: .2em;
+}
+.cell {
+    width: 25px;
+    height: 25px;
+    border-radius: 0;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+}
