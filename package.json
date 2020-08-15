@@ -4,7 +4,8 @@
   "description": "reducción de matrices",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
   },
   "keywords": [
     "matrices",
@@ -12,5 +13,13 @@
     "algebra-lineal"
   ],
   "author": "Cristian Iniguez <felizpc1@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.3",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
