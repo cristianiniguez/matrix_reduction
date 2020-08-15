@@ -1,6 +1,7 @@
-// import router from './routes/index';
+import './styles/styles.css'
+import router from './routes/index';
 
-// window.addEventListener('load', router);
-// window.addEventListener('hashchange', router);
+window.addEventListener('load', router);
+window.addEventListener('hashchange', router);
 
-console.log('Hola')
+// console.log('Hola')

@@ -14,4 +14,26 @@ header {
     padding: .5em 1em;
     text-align: center;
 }
+main {
+    padding: 2em;
+}
+
+.matrix-form {
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1em;
+    width: 50%;
+    margin: 0 auto;
+}
+.matrix-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+}
+.matrix-form label {
+    display: flex;
+    justify-content: space-between;
+}
 
